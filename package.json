@@ -1,0 +1,29 @@
+{
+    "name": "hivello-auto-bot",
+    "version": "1.0.0",
+    "description": "Automated bot for Hivello mining operations",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/airdropinsiders/Hivello-Auto-Bot.git"
+    },
+    "keywords": [
+      "hivello",
+      "mining",
+      "bot",
+      "automation"
+    ],
+    "author": "AirdropInsiders",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/airdropinsiders/Hivello-Auto-Bot/issues"
+    },
+    "homepage": "https://github.com/airdropinsiders/Hivello-Auto-Bot#readme",
+    "dependencies": {
+      "axios": "^1.6.7",
+      "chalk": "^4.1.2"
+    }
+  }

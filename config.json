@@ -1,0 +1,7 @@
+{
+    "deviceId": "your-device-id",
+    "apiBaseUrl": "https://api.hivello.services",
+    "localApiUrl": "http://yourvpsip:55601",
+    "token": "your-bearer-token-here",
+    "pingInterval": 45000
+  }
