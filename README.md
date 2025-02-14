@@ -58,7 +58,9 @@ Below are the steps to find the Device-ID and Bearer Token:
 
 ## Steps
 
-1. **Fiddler Settings**  
+1. **Fiddler Settings**
+   Go to Tools - then Settings :
+  
    ![Settings](./settings.PNG)
 
 2. **Find Device-ID**    
