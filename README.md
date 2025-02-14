@@ -27,11 +27,22 @@ npm install
 ```
 
 3. Configure the bot:
-- Edit `config.json` with your device settings:
-  - Set your `deviceId`
-  - Update `localApiUrl` if needed
-  - Add your bearer `token`
+- Edit `devices.txt` with your device settings:
+ ``` 
+  deviceId1|token1|label1
+  deviceId2|token2|label2
+```
 
+4. Configure your proxy:
+- Edit `proxy.txt` with your device settings:
+ ``` 
+http://1.2.3.4:8080
+http://user:pass@1.2.3.4:8080
+socks4://1.2.3.4:1080
+socks4://user:pass@1.2.3.4:1080
+socks5://1.2.3.4:1080
+socks5://user:pass@1.2.3.4:1080
+```
 ## Usage
 
 Start the bot:
@@ -47,12 +58,15 @@ Below are the steps to find the Device-ID and Bearer Token:
 
 ## Steps
 
-1. **Find Device-ID**    
+1. **Fiddler Settings**  
+   ![Settings](./settings.PNG)
+
+2. **Find Device-ID**    
   The Device-ID can typically be found in the application settings or network requests. Follow these steps:
 
    ![Device-ID](./device.PNG)  
 
-2. **Find Bearer Token**  
+3. **Find Bearer Token**  
    To retrieve the Bearer Token, you need to download and install **Fiddler Classic**. Follow these steps:  
    - Download Fiddler Classic from the official website: [Fiddler Classic Download](https://www.telerik.com/download/fiddler).  
    - Once installed, open Fiddler Classic and configure it to capture HTTPS traffic.  
@@ -64,10 +78,8 @@ Make sure to follow the steps carefully to retrieve the required Device-ID and B
 ## Configuration
 
 Edit `config.json` to modify:
-- `deviceId`: Your Hivello device ID
 - `apiBaseUrl`: Hivello API endpoint
 - `localApiUrl`: Your VPS IP address
-- `token`: Your bearer token
 - `pingInterval`: Time between pings (in milliseconds)
 
 ## Contributing
