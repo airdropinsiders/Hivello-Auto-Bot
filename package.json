@@ -24,6 +24,8 @@
     "homepage": "https://github.com/airdropinsiders/Hivello-Auto-Bot#readme",
     "dependencies": {
       "axios": "^1.6.7",
-      "chalk": "^4.1.2"
+      "chalk": "^4.1.2",
+      "https-proxy-agent": "^7.0.2",
+      "socks-proxy-agent": "^8.0.2"
     }
   }
