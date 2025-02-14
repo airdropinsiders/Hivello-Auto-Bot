@@ -1,0 +1,2 @@
+deviceId1|token1|label1
+deviceId2|token2|label2
